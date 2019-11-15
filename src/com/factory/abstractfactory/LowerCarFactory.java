@@ -8,6 +8,7 @@ public class LowerCarFactory implements CarFactory{
 
     @Override
     public Engine createEngine() {
+        System.out.println("解耦");
         return new LowerEngine();
     }
 
