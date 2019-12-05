@@ -108,7 +108,7 @@ public class Tokenizer {
                 "\n" +
                 "　　这不禁让人感到困惑，河北建设的其他PPP项目又如何了呢？截至2017年6月30日，河北建设参与的PPP项目，包括海阳创新园配套PPP项目（一期）在内有10个，总金额约为84.79亿元。\n" +
                 "\n" +
-                "　　目前，河北建设的股价出现明显下跌。截至发稿，河北建设每股股价5.26元，下跌5.4%。（邱德坤）";
+                "　　目前，河北建设的股价出现明显下跌。截至发稿，河北建设每股股价5.26元，下跌5.4%。";
         String path = new File("").getAbsolutePath() + "/config/company.txt";
         Tokenizer tk = new Tokenizer(path);
         Set<String> tokens = tk.participle(str);
